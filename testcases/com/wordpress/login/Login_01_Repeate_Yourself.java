@@ -13,7 +13,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
-public class Login_01_ValidateLoginForm {
+public class Login_01_Repeate_Yourself {
 	WebDriver driver;
 	By emailTextbox = By.xpath("//input[@id='usernameOrEmail']");
 	By passTextbox = By.xpath("//input[@id='password']");
