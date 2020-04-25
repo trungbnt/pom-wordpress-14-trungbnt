@@ -1,16 +1,16 @@
-package pageObjects;
+package pageObjects.wordpress;
 
 import org.openqa.selenium.WebDriver;
 
 import commons.AbstractPage;
-import pageUI.LoginPageUI;
+import pageUI.wordpress.LoginPageUI;
 
 public class LoginPageObject extends AbstractPage {
 	WebDriver driver;
 	
-	public LoginPageObject(WebDriver driver) {
-		super();
-		this.driver = driver;
+	public LoginPageObject(WebDriver mapDriver) {
+		driver = mapDriver;
+		System.out.println("Driver at Login Page: " + driver.toString());
 	}
 
 	public void inputToEmailTextbox(String email) {
