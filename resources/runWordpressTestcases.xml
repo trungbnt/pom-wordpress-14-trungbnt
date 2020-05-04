@@ -2,7 +2,7 @@
 <suite name="Wordpress" parallel="false">
   <test name="Run on Firefox">
     <classes>
-      <class name="com.wordpress.login.Login_04_Apply_Page_Object_Pattern"/>
+      <class name="com.wordpress.login.Login_05_Apply_Page_Factory"/>
     </classes>
   </test>
 </suite>
