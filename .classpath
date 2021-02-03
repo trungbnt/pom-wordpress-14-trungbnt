@@ -7,5 +7,17 @@
 	<classpathentry kind="src" path="interfaces"/>
 	<classpathentry kind="src" path="resources"/>
 	<classpathentry kind="lib" path="libraries/selenium-server-standalone-2.53.1.jar"/>
+	<classpathentry kind="lib" path="libsDriverManager/commons-codec-1.13.jar"/>
+	<classpathentry kind="lib" path="libsDriverManager/commons-collections4-4.3.jar"/>
+	<classpathentry kind="lib" path="libsDriverManager/commons-compress-1.20.jar"/>
+	<classpathentry kind="lib" path="libsDriverManager/commons-io-2.7.jar"/>
+	<classpathentry kind="lib" path="libsDriverManager/commons-lang3-3.11.jar"/>
+	<classpathentry kind="lib" path="libsDriverManager/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="libsDriverManager/httpclient5-5.0.1.jar"/>
+	<classpathentry kind="lib" path="libsDriverManager/httpcore5-5.0.1.jar"/>
+	<classpathentry kind="lib" path="libsDriverManager/jarchivelib-1.0.0.jar"/>
+	<classpathentry kind="lib" path="libsDriverManager/jsoup-1.13.1.jar"/>
+	<classpathentry kind="lib" path="libsDriverManager/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="libsDriverManager/webdrivermanager-4.2.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

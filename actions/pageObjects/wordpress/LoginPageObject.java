@@ -12,6 +12,10 @@ public class LoginPageObject extends AbstractPage {
 		driver = mapDriver;
 		System.out.println("Driver at Login Page: " + driver.toString());
 	}
+	
+	public String getLoginPageUrl() {
+		return "https://automationfc.wordpress.com/wp-admin/";
+	}
 
 	public void inputToEmailTextbox(String email) {
 		waitForElementVisible(driver, LoginPageUI.EMAIL_TEXTBOX);

@@ -3,7 +3,7 @@ package com.wordpress.login;
 import org.testng.annotations.Test;
 
 import commons.AbstractPage;
-import commons.PageFactoryManager;
+import commons.PageGeneratorManager;
 import pageObjects.wordpress.DashboardPageObject;
 import pageObjects.wordpress.LoginPageObject;
 
@@ -31,7 +31,7 @@ public class Login_05_Apply_Page_Factory extends AbstractPage {
 		driver.get("https://automationfc.wordpress.com/wp-admin/");
 		
 		//loginPage = new LoginPageObject(driver);
-		loginPage = PageFactoryManager.getLoginPage(driver);
+		loginPage = PageGeneratorManager.getLoginPage(driver);
 	}
 	
 	@BeforeMethod
@@ -85,7 +85,7 @@ public class Login_05_Apply_Page_Factory extends AbstractPage {
 		loginPage.inputToPasswordTextbox("automationfc");
 		loginPage.clickToContinueOrLoginButton();
 		
-		dashboardPage = PageFactoryManager.getDashboardPage(driver);
+		dashboardPage = PageGeneratorManager.getDashboardPage(driver);
 		Assert.assertTrue(dashboardPage.isHeaderTextDisplayed());
 	}
 
